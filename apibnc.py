@@ -4,6 +4,6 @@ import requests
 number = 77
 
 # Send the number to the Node.js server
-response = requests.post('https://solartesty2.onrender.com/number', json={'number': number})
+response = requests.post('http://localhost:3000/number', json={'number': number})
 
 print(response.text)

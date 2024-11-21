@@ -1,8 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
-server.keepAliveTimeout = 80000;
-server.headersTimeout = 81000;
 app.use(cors())
 
 const port = 3000;
